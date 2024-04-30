@@ -1,3 +1,4 @@
+<meta name="google-site-verification" content="xh3U26uyWhGT0jIDhKngMQzyt5gUl7ozsBfEut-SQWs" />
 # MSSQL Android Studio Simple Tutorial JDBC
  MSSQL Android Studio Simple Tutorial JDBC
 
