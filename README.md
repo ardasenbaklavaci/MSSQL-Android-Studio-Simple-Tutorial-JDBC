@@ -6,6 +6,8 @@ Connecting Android Studio, Java Project to MSSQL Using JDBC... JDBC is the main 
 ### What is JDBC?
 JDBC, or Java Database Connectivity, is an API (Application Programming Interface) in Java that allows Java applications to connect and interact with databases. JDBC provides a standardized way for Java applications to communicate with various types of databases, like MySQL, PostgreSQL, Oracle, SQL Server, and others, regardless of the specific database being used.
 
+JDBC is foundational in Java for database operations and is widely used in Java-based enterprise applications and server-side programming.
+
 ### Key Components of JDBC
 JDBC Driver: A library specific to the database you are using. JDBC drivers implement the JDBC API to handle the particular database’s communication protocol, allowing Java code to work with multiple databases by simply changing the driver.
 
