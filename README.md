@@ -1,8 +1,42 @@
-<meta name="google-site-verification" content="xh3U26uyWhGT0jIDhKngMQzyt5gUl7ozsBfEut-SQWs" />
-# MSSQL Android Studio Simple Tutorial JDBC
- MSSQL Android Studio Simple Tutorial JDBC
+
+### MSSQL Android Studio Simple Tutorial JDBC
 
 Connecting Android Studio, Java Project to MSSQL Using JDBC... JDBC is the main package for connecting Android projects to SQL... For MSSQL, We use JTDS package to have Windows Authentication for MSSQL. 
+
+### What is JDBC?
+JDBC, or Java Database Connectivity, is an API (Application Programming Interface) in Java that allows Java applications to connect and interact with databases. JDBC provides a standardized way for Java applications to communicate with various types of databases, like MySQL, PostgreSQL, Oracle, SQL Server, and others, regardless of the specific database being used.
+
+### Key Components of JDBC
+JDBC Driver: A library specific to the database you are using. JDBC drivers implement the JDBC API to handle the particular database’s communication protocol, allowing Java code to work with multiple databases by simply changing the driver.
+
+Connection Interface: Represents a connection to a specific database. This is the starting point for any JDBC operations, like executing SQL queries.
+
+Statement Interface: Used to execute SQL queries against the database. There are three types of statements:
+
+Statement for simple SQL queries.
+PreparedStatement for precompiled SQL queries with parameters.
+CallableStatement for executing stored procedures in the database.
+ResultSet Interface: Represents the result set of a query. It allows navigation through the data returned by a query and retrieval of data by column name or index.
+
+SQLException: An exception class for handling SQL errors that may occur during database operations.
+
+### Workflow
+
+Basic Workflow with JDBC:
+
+Load the JDBC Driver (nowadays, it's often automatically loaded).
+
+Establish a Connection to the database using DriverManager.
+
+Create a Statement to execute SQL queries.
+
+Execute Queries and retrieve results.
+
+Process the Results (using a ResultSet).
+
+Close the Resources (Connection, Statement, ResultSet) to avoid memory leaks
+
+### Tutorial
 
 Connection String Template (Local MSSQL Servers on your PC): 
 String url = "jdbc:jtds:sqlserver://ip:port/Database"
